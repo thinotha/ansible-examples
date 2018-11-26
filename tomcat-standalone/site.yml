@@ -1,7 +1,7 @@
 ---
 # This playbook deploys a simple standalone Tomcat 7 server.
 
-- hosts: 104.209.222.220
+- hosts: tomcat-servers-test
   remote_user: root
   become: yes
   become_method: sudo
